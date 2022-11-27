@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="index.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="father">Father's Name</label>
+            <input type="text" name="father" id="father">
+        </div>
+        <div>
+            <label for="email">Email Address</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age">
+        </div>
+        <div>
+            What do you prefer: <label for="milk">1. milk</label><input type="radio" id="milk" name="prefer"> <label for="bread">2.
+                bread</label><input type="radio" id="bread" name="prefer">
+        </div>
+        <div>
+            Are you really 18+: <input type="checkbox">
+        </div>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="comment here!"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>

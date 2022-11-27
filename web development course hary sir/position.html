@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in css</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            display: inline-block;
+            padding: 100px;
+            border: 2px solid red;
+            margin: 10px;
+        }
+        #box2{
+            /* position: relative; */
+            /* top: 1px; */
+            /* bottom: -15px;/*override the top 1px position*/
+            /* left: 45px;  */
+            position: absolute;/*ye wahi p override ho jayega aage wala element se and iska space khali ho jayega*/
+            top: 0px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+</body>
+</html>
